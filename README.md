@@ -89,18 +89,15 @@ Bu projede kullanılan veri seti tarafımızca kamera ile toplanmıştır.
 ## Model Eğitimi
 
 ### 1) Klip üretme
-```
+
 python src/preprocess/make_clips.py
 
-2) Model eğitme
+## 2) Model eğitme
 python src/train/train_3dcnn.py
----
 
-Çıktı:
 
-models/best.pt
 
-Canlı Tahmin Uygulaması
+## Canlı Tahmin Uygulaması
 streamlit run src/app/live_app.py
 
 
@@ -108,36 +105,34 @@ Kamera açılır ve sistem gerçek zamanlı tahmin yapar.
 
 Arayüz
 
-Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
-Python
+* Python
 
-PyTorch
+* PyTorch
 
-3D CNN
+* 3D CNN
 
-OpenCV
+* OpenCV
 
-MediaPipe
+* MediaPipe
 
-Streamlit
+* Streamlit
 
-Mevcut Durum
+# Mevcut Durum
 
 Sistem kısa yüz hareketlerini gerçek zamanlı analiz edip stabil sonuç üretebilmektedir.
 
-Geliştirilebilir Yönler
+# Geliştirilebilir Yönler
 
-Farklı kişilerden veri ekleme
+* Farklı kişilerden veri ekleme
 
-Daha gelişmiş video modelleri
+* Daha gelişmiş video modelleri
 
-Sürekli akış halinde tahmin
+* Mobil uygulama
 
-Mobil uygulama
+* Ses üretimi entegrasyonu
 
-Ses üretimi entegrasyonu
+# Amaç
 
-Amaç
-
-Bu proje, yalnızca görsel hareket analizi kullanarak sessiz iletişim kurulabileceğini gösteren yardımcı bir teknoloji prototipidir.
+Bu proje,  hareket analizi kullanarak sessiz iletişim kurulabileceğini gösteren yardımcı bir teknoloji prototipidir.
