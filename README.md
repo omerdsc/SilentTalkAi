@@ -17,7 +17,7 @@ gibi senaryolar için geliştirilmiş bir prototiptir.
 
 ## Sistem Nasıl Çalışır
 
-<img width="1858" height="762" alt="Ekran görüntüsü 2026-02-18 214826" src="https://github.com/user-attachments/assets/31073a51-5177-48c0-962e-014bf308c4ba" />
+<img width="1912" height="874" alt="Ekran görüntüsü 2026-02-18 212450" src="https://github.com/user-attachments/assets/01aea496-9ba2-47f0-9863-62210a57bf70" />
 
 
 Sistem tek bir fotoğrafı değil, zaman içindeki hareketi analiz eder.
@@ -56,7 +56,7 @@ Ardışık kareler arasındaki yüz hareketlerini öğrenerek sınıflandırma y
 SilentTalk-3D/
 │
 ├── src/
-│ ├── preprocess/ → video → klip üretme
+│ ├── preprocess/ → veri işleme 
 │ ├── train/ → model eğitimi
 │ └── app/ → canlı kamera tahmin
 │
