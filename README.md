@@ -53,19 +53,7 @@ Ardışık kareler arasındaki yüz hareketlerini öğrenerek sınıflandırma y
 
 ## Proje Yapısı
 
-SilentTalk-3D/
-│
-├── src/
-│ ├── preprocess/ → veri işleme 
-│ ├── train/ → model eğitimi
-│ └── app/ → canlı kamera tahmin
-│
-├── models/ → eğitilmiş model
-├── data_raw/ → paylaşılmadı
-├── data_processed/ → paylaşılmadı
-│
-├── requirements.txt
-└── README.md
+<img width="388" height="329" alt="image" src="https://github.com/user-attachments/assets/20477f0e-7e49-4f8e-83b0-eb44420f2f01" />
 
 
 ---
